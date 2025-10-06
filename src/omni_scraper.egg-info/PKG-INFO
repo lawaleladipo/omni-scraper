@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: omni-scraper
 Version: 0.3.0
-Summary: Async OSINT toolkit with Intelligence X leaks, Tor crawler, Shodan, and scraping.
+Summary: Async OSINT toolkit with Intelligence X leaks, Tor crawler, Shodan, and scraping modules
 Home-page: https://github.com/lawaleladipo/omni-scraper
 Author: Olawale Oladipo
 License: MIT
@@ -15,18 +15,28 @@ Requires-Dist: stem==1.8.2
 Requires-Dist: beautifulsoup4==4.12.3
 Requires-Dist: aiohttp==3.10.5
 Requires-Dist: aiohttp-socks==0.8.4
+Requires-Dist: pytest==8.3.3
+Requires-Dist: pytest-asyncio==0.21.0
 Requires-Dist: click==8.1.7
 Requires-Dist: shodan==1.31.0
 Requires-Dist: tenacity==9.0.0
-Requires-Dist: pytest==8.3.3
-Requires-Dist: pytest-asyncio==0.24.0
 Requires-Dist: loguru==0.7.2
+Requires-Dist: pytest-cov==3.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.0; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: mypy>=0.950; extra == "dev"
 Dynamic: author
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license
 Dynamic: license-file
+Dynamic: provides-extra
 Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
