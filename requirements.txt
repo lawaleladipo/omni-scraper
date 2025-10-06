@@ -8,6 +8,4 @@ aiohttp-socks==0.8.4
 click==8.1.7
 shodan==1.31.0
 tenacity==9.0.0
-pytest==8.3.3
-pytest-asyncio==0.24.0
 loguru==0.7.2
