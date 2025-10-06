@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
 setup(
     name="omni-scraper",
     version="0.3.0",
-    description="Async OSINT toolkit with Intelligence X leaks, Tor crawler, Shodan, and scraping templates",
+    description="Async OSINT toolkit with Intelligence X leaks, Tor crawler, Shodan, and scraping modules",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lawaleladipo/omni-scraper",
@@ -22,10 +22,14 @@ setup(
     python_requires=">=3.9",
     install_requires=install_requires,
     extras_require={
-        'dev': [
-            'pytest',
-            'pytest-asyncio',
-        ],
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-asyncio>=0.21.0",
+            "flake8>=4.0.0",
+            "black>=22.0.0",
+            "isort>=5.10.0",
+            "mypy>=0.950"
+        ]
     },
     entry_points={
         "console_scripts": [
