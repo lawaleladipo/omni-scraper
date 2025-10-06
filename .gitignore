@@ -1,0 +1,15 @@
+.env
+.env.*
+/logs/
+/data/outputs/
+/__pycache__/
+/.venv/
+/venv/
+/dist/
+/build/
+/*.egg-info
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+omnisraper.db

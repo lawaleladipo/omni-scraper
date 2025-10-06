@@ -1,0 +1,35 @@
+intelx:
+  api_key: ""
+  base_url: "https://free.intelx.io"
+  rate_limit_delay: 1.0
+  user_agent: "OmniScraper/0.3"
+
+shodan:
+  api_key: ""
+
+tor:
+  control_port: 9051
+  socks_port: 9050
+  password: ""
+  max_retries: 3
+  renewal_interval: 5
+
+crawler:
+  max_depth: 3
+  max_pages: 100
+  request_timeout: 30
+  request_delay: 2
+  user_agent: "OmniScraper-WebCrawler/async"
+  concurrency: 4
+  seeds:
+    - "http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "omni_scraper.log"
+
+output:
+  format: "json"
+  directory: "data/outputs"
+  timestamp_format: "%Y%m%d_%H%M%S"

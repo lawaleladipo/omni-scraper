@@ -1,0 +1,2 @@
+[console_scripts]
+omni-scraper = omni_scraper.cli:cli
