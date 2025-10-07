@@ -1,6 +1,6 @@
 # Omni-Scraper v0.1.0
 
-Async OSINT toolkit for Tor .onion crawling, Intelligence X leak checks, Shodan lookups, and scraping. Ethical leak hunting (e.g., @lbs.edu.ng).
+Async OSINT toolkit for Tor .onion crawling, Intelligence X leak checks, Shodan lookups, and scraping. Ethical leak hunting (e.g., @company.com).
 
 ## Intelligence X Logo
 
